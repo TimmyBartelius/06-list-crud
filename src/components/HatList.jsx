@@ -9,6 +9,7 @@ const HatList = ({ hats, changePrice }) => {
 					key={hat.id}
 					hatInfo={hat}
 					changePrice={changePrice}
+					deleteHat = {deleteHat}
 					/>
 			))}
 		</section>
