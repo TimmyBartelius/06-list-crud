@@ -40,6 +40,7 @@ function App() {
 				<HatList
 					hats={hats}
 					changePrice={changePrice }
+					
 					/>
 			</main>
 		</div>
